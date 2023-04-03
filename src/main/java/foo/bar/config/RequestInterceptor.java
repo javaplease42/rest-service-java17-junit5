@@ -12,7 +12,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestBodyAdviceAd
 import java.lang.reflect.Type;
 
 @ControllerAdvice
-public class RequestBodyInterceptor extends RequestBodyAdviceAdapter {
+public class RequestInterceptor extends RequestBodyAdviceAdapter {
 
     @Autowired
     LoggingService logService;
